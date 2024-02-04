@@ -15,13 +15,19 @@ function Dashboard() {
       </div>
 
       {/* Marquee Section */}
-      <marquee className="bg-skin-grey text-white py-[18px] font-marquee">
-        <h5 className="text-h5">
-          John Bill / Creator / Moved to NYC / 27.11.22 / Live now/John Bill /
-          Creator / Moved to NYC / 27.11.22 / Live now / John Bill / Creator /
-          Moved to NYC / 27.11.22 / Live now
-        </h5>
-      </marquee>
+      <div className="marquee-container overflow-hidden whitespace-nowrap bg-skin-grey text-white font-marquee py-[20px]">
+      <h5 className="inline-block animate-marquee text-h5">
+        John Bill / Creator / Moved to NYC / 27.11.22 / Live now /
+        John Bill / Creator / Moved to NYC / 27.11.22 / Live now /
+        John Bill / Creator / Moved to NYC / 27.11.22 / Live now /
+        John Bill / Creator / Moved to NYC / 27.11.22 / Live now /
+        John Bill / Creator / Moved to NYC / 27.11.22 / Live now /
+        John Bill / Creator / Moved to NYC / 27.11.22 / Live now/
+        John Bill / Creator / Moved to NYC / 27.11.22 / Live now /
+        John Bill / Creator / Moved to NYC / 27.11.22 / Live now /
+        John Bill / Creator / Moved to NYC / 27.11.22 / Live now
+      </h5>
+    </div>
 
       {/* Main Content Container */}
       <div className="max-w-[1200px] mx-auto relative lg:w-[90%]">

@@ -10,6 +10,20 @@
   --white-bg: #ffffff;
   --button-bg: #764CC2;
 } 
+
 .blur-background {
-  @apply backdrop-filter backdrop-blur-3xl;
+  backdrop-filter: blur(3px);
+}
+
+@keyframes marquee-animation {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee-animation 200s linear infinite;
 }
