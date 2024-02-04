@@ -1,4 +1,4 @@
-import React from "react";
+ 
 import { FaPlus } from "react-icons/fa6";
 interface Item {
   value: string;

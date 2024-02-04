@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import logo from "../../assets/aBit.png";
 import { Link } from "react-router-dom";
 import { MdOutlineMenu } from "react-icons/md";

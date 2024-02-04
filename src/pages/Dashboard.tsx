@@ -1,4 +1,4 @@
-import React from "react";
+ 
 import coverimage from "../assets/coverimage.png";
 import Listitems from "../components/list/Listitems";
 
