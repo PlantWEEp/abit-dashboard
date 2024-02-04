@@ -16,7 +16,7 @@ function Dashboard() {
 
       {/* Marquee Section */}
       <div className="marquee-container overflow-hidden whitespace-nowrap bg-skin-grey text-white font-marquee py-[20px]">
-      <h5 className="inline-block animate-marquee text-h5">
+      <h5 className="inline-block text-h5">
         John Bill / Creator / Moved to NYC / 27.11.22 / Live now /
         John Bill / Creator / Moved to NYC / 27.11.22 / Live now /
         John Bill / Creator / Moved to NYC / 27.11.22 / Live now /
