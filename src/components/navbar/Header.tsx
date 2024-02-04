@@ -9,7 +9,7 @@ function Header() {
   return (
     <div className="flex justify-between items-center w-[90%] mx-auto h-[110px]">
       <div>
-        <img src={logo} alt="aBit-logo" />
+        <img src={logo} alt="aBit"/>
       </div>
 
       <div className="flex items-center gap-2">
